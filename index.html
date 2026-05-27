@@ -747,6 +747,7 @@
                 player.position.addScaledVector(rightVec, move.x * currentSpeed * delta);
             }
 
+            
             player.position.x = THREE.MathUtils.clamp(player.position.x, -65, 65);
             player.position.z = THREE.MathUtils.clamp(player.position.z, -75, 15);
 
@@ -890,3 +891,5 @@
     </script>
 </body>
 </html>
+
+
